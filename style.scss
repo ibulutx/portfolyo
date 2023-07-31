@@ -327,6 +327,10 @@ section {
                     border-radius: 15px;
 				}
 			}
+
+        
+                
+            }
 			.contentBx {
 				h3 {
 					color: black;
@@ -373,7 +377,7 @@ section {
 			}
 		}
 	}
-}
+
 
 
 
@@ -422,3 +426,17 @@ footer{
       }
     }
   }
+
+  @media screen and (max-width: 425px) { 
+    .imgBx{
+        width: 200px;
+        height: 150px;
+        img{
+            position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        }
+    }}
