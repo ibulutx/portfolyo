@@ -12,13 +12,14 @@ body {
     color: white;
     
     .bas{
-        background-image: linear-gradient(90deg, #FF0099, #ff90d5);
+        background: linear-gradient(180deg, #FF029A 0%, #FFF2F2 100%);
         background-color: #fa87ce;
     }
 }
 
 
 .header {
+   
     li {
       float: left;
       list-style-type: none;
@@ -194,7 +195,7 @@ span:nth-of-type(11) {
 
 .orta{
     
-    background-color: rgb(255, 242, 242);
+    background-color: #ffeff8;
     padding: 10%;
     text-align: justify;
     
@@ -205,10 +206,11 @@ span:nth-of-type(11) {
 
 .hk{
     border-radius: 20px;
-    background-color: rgb(255, 252, 252);
+    background-color: #FFF2F2 ;
 
     .sol{
-        background-color: #ba0073;
+         background-image: linear-gradient(90deg, #FF0099, #ff90d5);
+        background-color: #fa87ce;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         padding: 5%;
@@ -273,7 +275,7 @@ section {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: linear-gradient(#E55D87, #5FC3E4);
+		background: linear-gradient(#5dd4ff, #2f9893);
 		clip-path: circle(20% at 10% 10%);
 	}
 }
