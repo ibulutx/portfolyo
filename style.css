@@ -305,7 +305,21 @@ section::after {
   height: 100%;
   border-radius: 15px;
 }
-.projects .card .contentBx h3 {
+@media screen and (max-width: 425px) {
+  .projects .card .content .imgBx {
+    width: 200px;
+    height: 150px;
+  }
+  .projects .card .content .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}
+.projects .card .content .contentBx h3 {
   color: black;
   text-transform: uppercase;
   font-weight: 500;
@@ -313,32 +327,32 @@ section::after {
   margin: 20px 0 10px;
   line-height: 1.1em;
 }
-.projects .card .contentBx h3 p {
+.projects .card .content .contentBx h3 p {
   font-size: 15px;
   font-weight: 400;
   text-transform: initial;
 }
-.projects:hover .content {
+.projects .card:hover .content {
   transform: translateY(-20px);
 }
-.projects:hover .sci li {
+.projects .card:hover .sci li {
   transform: translateY(0px);
   opacity: 1;
 }
-.projects .sci {
+.projects .card .sci {
   position: absolute;
   bottom: 10px;
   display: flex;
   left: 60px;
 }
-.projects .sci li {
+.projects .card .sci li {
   list-style: none;
   margin: 0 10px;
   transform: translateY(40px);
   transition: 0.5s;
   opacity: 0;
 }
-.projects .sci li a {
+.projects .card .sci li a {
   color: black;
   font-size: 20px;
 }
@@ -371,19 +385,5 @@ footer i {
   }
   .isler .sol1 h1, .isler .sag1 h1 {
     font-size: 40px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .imgBx {
-    width: 200px;
-    height: 150px;
-  }
-  .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
